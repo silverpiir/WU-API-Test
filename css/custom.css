@@ -1,0 +1,100 @@
+body{
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    background-color: #C0D6E4;
+    background-attachment: fixed;
+}
+.container{
+    height: auto;
+    width: 70%;
+    background: rgba(244, 244, 244, 0.8);
+    
+}
+.container-relative{
+    position: relative;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header{
+    background-color: #3F51B5;
+    color: #fff;
+}
+.section-content{
+    flex: 1;
+    
+}
+.footer{
+    bottom: 0;
+}
+.footer a{
+    margin: 0 20px;
+}
+.footer a:hover{
+    opacity: 0.8;
+}
+.welcome-options{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+.form-width{
+    width: 30%;
+    margin: 0 auto;
+}
+.form-group{
+    margin: 20% 0 0 0;
+}
+.buttons{
+    width: 200px;
+}
+.buttons-bottom{
+    margin: 0 0 100px 0;
+}
+.buttons-top{
+    margin: 100px 0 0 0;
+}
+.centering{
+    text-align: center;
+}
+.heading{
+    margin: 100px 0 0 0;
+    text-align: center;
+}
+.h1margin{
+    margin: 10% 0 0 0;
+}
+hr{
+    background-color: #333;
+    height: 1px;
+    border: 0;
+}
+.tableview{
+    table-layout: fixed;
+    width: 50%;
+}
+.tdview{
+    width: 200px;
+}
+.portrait{
+    float: left;
+    width: 45%;
+    height: auto;
+}
+.minicontainer{
+    margin: 0 auto;
+    width: 5vw;
+    font-size: x-large;
+}
+.portrait img{
+    width: 200px;
+    height: auto;
+    margin: 0 5% 0 0;
+    float: right;
+}
+.showdata{
+    margin: 10% 0 0 0;
+}
